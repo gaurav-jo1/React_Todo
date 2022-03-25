@@ -1,23 +1,35 @@
-import React from 'react';
-import './My_Day.scss';
-import {AiOutlineUpCircle} from 'react-icons/ai';
+import React from "react";
+import "./My_Day.scss";
+import { BiChevronRightCircle } from "react-icons/bi";
+import { AiOutlineStar } from "react-icons/ai";
+import { FaPlus } from "react-icons/fa";
 
 const My_Day = () => {
   return (
+    <div className="main_Background">
+      <div className="upperContainer">
+        <h1>My Day</h1>
+        <div className="MyDayLine" />
 
-    <div className='main_Background'>
-      <h1>My Day</h1>
+        <div className="list_of_Todo">
+          <p>This is my first task ...............</p>
+          <h5>
+            <AiOutlineStar />
+          </h5>
+        </div>
+      </div>
 
-
-      <div className='adding_task_div' >
-        <input className='Input_Add' type="text" name='myDay_task' placeholder="Try typing 'Exercise by 5 PM' "  />
-        <input className='Input_Submit' type="submit"  value="+"/>
-      </div>   
-      {/* <input className='Input_Add'  type="text" name="myDay_task" placeholder="Try typing 'Exercise by 5 PM' "   />
-      <input className='Input_Submit'  type="submit" value="Submit"  placeholder='+'/> */}
-
+      <div className="adding_task_div">
+        <div>
+          <h3><BiChevronRightCircle /></h3>
+          <input type="text" placeholder=" Add a task...  😃" />
+        </div>
+        <button>
+          <FaPlus />
+        </button>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default My_Day
+export default My_Day;
