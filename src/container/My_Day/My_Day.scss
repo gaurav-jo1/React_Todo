@@ -12,10 +12,14 @@
     font-size: 25px;
     font-family: 'Ubuntu', sans-serif;
 
-    .Input_Add {
+    .adding_task_div {
         display: flex;
         position: absolute;
         bottom: 60px;
+        width: 100%;
+    }
+
+    .Input_Add {
         width: 70%;
         height: 40px;
         border-radius: 5px;
@@ -27,9 +31,6 @@
     }
     .Input_Submit {
         display: flex;
-        position: absolute;
-        bottom: 60px;
-        right: 80px;
         width: 30px;
         height: 40px;
         border-radius: 5px;
