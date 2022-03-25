@@ -1,46 +1,46 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Ubuntu&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Ubuntu&display=swap");
 
 .main_Background {
+  width: 100%;
+  background-image: url("../../assets/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  color: white;
+  padding: 45px 60px;
+  font-size: 25px;
+  font-family: "Ubuntu", sans-serif;
+
+  .adding_task_div {
+    display: flex;
+    position: absolute;
+    bottom: 60px;
     width: 100%;
-    background-image:url('../../assets/background.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100vh;
-    color: white;
-    padding: 45px 60px;
-    font-size: 25px;
-    font-family: 'Ubuntu', sans-serif;
+  }
 
-    .adding_task_div {
-        display: flex;
-        position: absolute;
-        bottom: 60px;
-        width: 100%;
-    }
-
-    .Input_Add {
-        width: 70%;
-        height: 40px;
-        border-radius: 5px;
-        background-color: rgba(0, 0, 0, 0.6);
-        border: none;
-        color: aqua;
-        padding: 0 20px;
-        font-size: 16px;
-    }
-    .Input_Submit {
-        display: flex;
-        width: 30px;
-        height: 40px;
-        border-radius: 5px;
-        background-color: rgba(179, 179, 179, 0.6);
-        border: none;
-        color: aqua;
-        padding: 0 20px;
-        text-align: center;
-        font-size: 30px;
-        justify-content: center;
-        font-weight:600;
-    }
+  .Input_Add {
+    width: 70%;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: none;
+    color: aqua;
+    padding: 0 20px;
+    font-size: 16px;
+  }
+  .Input_Submit {
+    display: flex;
+    width: 30px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgba(179, 179, 179, 0.6);
+    border: none;
+    color: aqua;
+    padding: 0 20px;
+    text-align: center;
+    font-size: 30px;
+    justify-content: center;
+    font-weight: 600;
+  }
 }
