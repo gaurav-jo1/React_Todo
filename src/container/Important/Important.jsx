@@ -3,7 +3,9 @@ import './Important.scss';
 
 const Important = () => {
   return (
-    <div>Important</div>
+    <div>
+      <p>Important</p>
+    </div>
   )
 }
 

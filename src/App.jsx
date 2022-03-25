@@ -1,12 +1,11 @@
 import './App.scss';
-import { Important, My_Day} from './container';
+import { Important, My_Day, Side_Bar} from './container';
 
 function App() {
 
   return (
     <div className='app'>
-      <My_Day />
-      <Important />
+      <Side_Bar />
     </div>
   )
 }
