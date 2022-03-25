@@ -1,10 +1,12 @@
-import './App.css'
+import './App.scss';
+import { Important, My_Day} from './container';
 
 function App() {
 
   return (
-    <div>
-      <h1>Hello World</h1>
+    <div className='app'>
+      <My_Day />
+      <Important />
     </div>
   )
 }
