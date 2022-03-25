@@ -6,6 +6,14 @@ nav {
 
 }
 
+.blueLine {
+    height: 18px;
+    width: 2.5px;
+    background-color: #4669db;
+    border-radius: 10px;
+    display: none;
+}
+
 .UserName {
     display: flex;
     justify-content: center;
@@ -40,6 +48,11 @@ ul {
         &:hover {
             background-color: rgba(0, 0, 0, 0.7);
             border-radius: 10px;
+            cursor: pointer;
+
+            .blueLine {
+                display: block;
+            }
         }
     }
 }

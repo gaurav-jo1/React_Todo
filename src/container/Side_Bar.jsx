@@ -16,13 +16,13 @@ const Side_Bar = () => {
         <h2>Gaurav Joshi</h2>
       </div>
       <ul>
-          <li> <BsFillSunFill/> &nbsp; My Day</li>
-          <li> <MdOutlineStarOutline  style={{color:'gold'}} /> &nbsp; Important</li>
-          <li> <RiFileListFill style={{color:'skyblue'}} /> &nbsp; Planned</li>
+          <li> <div className='blueLine'/> &nbsp; <BsFillSunFill/> &nbsp; My Day</li>
+          <li> <div className='blueLine'/> &nbsp; <MdOutlineStarOutline  style={{color:'gold'}} /> &nbsp; Important</li>
+          <li> <div className='blueLine'/> &nbsp; <RiFileListFill style={{color:'skyblue'}} /> &nbsp; Planned</li>
       </ul>
       <div className='one_line'/>
       <ul>
-          <li> <FaRegHandPointRight style={{color:'yellow'}} /> &nbsp; Getting Started</li>
+          <li> <div className='blueLine'/> &nbsp; <FaRegHandPointRight style={{color:'yellow'}} /> &nbsp; Getting Started</li>
       </ul>
     </nav>
   )
