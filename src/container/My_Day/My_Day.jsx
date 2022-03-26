@@ -1,11 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import "./My_Day.scss";
 import { BiChevronRightCircle } from "react-icons/bi";
 import { AiOutlineStar } from "react-icons/ai";
 import { FaPlus } from "react-icons/fa";
+import {Side_Bar} from "../../components";
 
 const My_Day = () => {
   return (
+    <>
+    <Side_Bar/>
     <div className="main_Background">
       <div className="upperContainer">
         <h1>My Day</h1>
@@ -21,14 +24,20 @@ const My_Day = () => {
 
       <div className="adding_task_div">
         <div>
-          <h3><BiChevronRightCircle /></h3>
-          <input type="text" placeholder=" Add a task...  😃" />
+          <h3>
+            <BiChevronRightCircle />
+          </h3>
+          <input
+            type="text"
+            placeholder=" Add a task...  😃"
+          />
         </div>
-        <button>
+        <button type="button">
           <FaPlus />
         </button>
       </div>
     </div>
+    </>
   );
 };
 

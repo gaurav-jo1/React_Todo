@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Oswald:wght@300&family=Ubuntu&display=swap');
+
+.Home_Background {
+    width: 100%;
+    background-image: url("../assets/home.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    text-align: center;
+
+    h1 {
+        font-family: 'Hurricane', cursive;
+        font-size: 130px;
+        color: rgb(221, 50, 255);
+        padding: 80px;
+    }
+}
